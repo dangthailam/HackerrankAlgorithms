@@ -35,6 +35,7 @@
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Numerics" />
+    <Reference Include="System.ServiceModel" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -43,9 +44,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AbsolutePermutation.cs" />
     <Compile Include="Algorithms.cs" />
+    <Compile Include="AlmostSorted.cs" />
+    <Compile Include="CavityMap.cs" />
+    <Compile Include="Encryption.cs" />
+    <Compile Include="KaprekarNumber.cs" />
+    <Compile Include="LarrysArray.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TheBomberMan.cs" />
+    <Compile Include="TheGridSearch.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
