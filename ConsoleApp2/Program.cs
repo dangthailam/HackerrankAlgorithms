@@ -8,13 +8,43 @@ using System.Text;
 
 namespace ConsoleApp1
 {
+    class Range
+    {
+        public int A { get; set; }
+        public int B { get; set; }
+        public int Sum { get; set; }
+    }
 
     class Program
     {
         static void Main(string[] args)
         {
             
+
             Console.ReadLine();
+        }
+
+        static void CheckAndSyncRanges(List<Range> ranges, int a, int b, int k)
+        {
+            foreach(var range in ranges)
+            {
+                if(range.A < a && range.B < b)
+                {
+
+                }
+                else if(range.A > a && range.B < b)
+                {
+
+                }
+                else if(range.A < a && range.B > b)
+                {
+
+                }
+                else
+                {
+
+                }
+            }
         }
 
         /// <summary>

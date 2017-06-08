@@ -45,6 +45,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AbsolutePermutation.cs" />
+    <Compile Include="AlgorithmicCrush.cs" />
     <Compile Include="Algorithms.cs" />
     <Compile Include="AlmostSorted.cs" />
     <Compile Include="CavityMap.cs" />
@@ -53,6 +54,7 @@
     <Compile Include="LarrysArray.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="QueensAttackII.cs" />
     <Compile Include="TheBomberMan.cs" />
     <Compile Include="TheGridSearch.cs" />
   </ItemGroup>
@@ -60,7 +62,9 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="bin\Debug\AlgorithmicCrush.txt" />
     <Content Include="bin\Debug\data.txt" />
+    <Content Include="bin\Debug\input.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
